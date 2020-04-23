@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    position: relative;
+    top: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.column.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column.text .button.is-danger {
+    width: 150px;
+}
+
+.about {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#hand {
+    position: relative;
+    top: 6px;
+}
+
+.sudinoi {
+    padding-top: 30px;
+}
+
+.button.is-rounded.is-danger {
+    position: relative;
+    top: 7px;
+}
+
+.signature {
+    display: flex;
+    padding-top: 20px;
+}
+
+.signature-name {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.message {
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(../img/legno.jpeg);
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.message .columns {
+    width: 90%;
+    margin: auto;
+}
+
+.latest {
+    text-align: center;
+}
+
+.prodotto {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.box.selection:hover {
+    box-shadow: 0 1.5rem 3rem rgba(77, 55, 38, 0.2);
+    transform: scale(1.02) translateY(-4px);
+}
+
+.title.is-4.is-uppercase:hover {
+    color: #F03A5F;
+}
+
+
+/* CLIENTI */
+
+.clienti {
+    padding-top: 80px;
+    padding-bottom: 125px;
+}
+
+.clienti h1 {
+    padding-bottom: 50px;
+}
+
+.profilo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imagine {
+    width: 100px;
+    height: auto;
+    border-radius: 25021997px;
+    margin-right: 20px;
+}
+
+.profilo-nome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opinione {
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 1.2rem;
+}
+
+#column-mid {
+    border-right: solid 1px rgba(128, 128, 128, 0.473);
+    border-left: solid 1px rgba(128, 128, 128, 0.473);
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+/* BLOG */
+
+.blog {
+    padding-bottom: 100px;
+}
+
+.blog h1 {
+    padding-bottom: 40px;
+}
+
+#carne {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(44, 43, 43)),
+    url('../img/carne.jpg');
+    background-size: cover;
+    min-height: 200px;
+}
+
+#carne:hover {
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) translateY(-8px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 43, 43, 0.726)),
+    url('../img/carne.jpg');
+    background-size: cover;
+}
+
+#pesticida {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(44, 43, 43)),
+    url('../img/pesticida.jpg');
+    background-size: cover;
+    min-height: 200px;
+}
+
+#pesticida:hover {
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) translateY(-8px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 43, 43, 0.726)),
+    url('../img/pesticida.jpg');
+    background-size: cover;
+}
+
+#orto {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(44, 43, 43)),
+    url('../img/orto.jpg');
+    background-size: cover;
+}
+
+#orto:hover {
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) translateY(-8px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 43, 43, 0.726)),
+    url('../img/orto.jpg');
+    background-size: cover;
+}
+
+#bio {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(44, 43, 43)),
+    url('../img/agricultura.jpg');
+    background-size: cover;
+    min-height: 250px;
+}
+
+#bio:hover {
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) translateY(-8px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 43, 43, 0.726)),
+    url('../img/agricultura.jpg');
+    background-size: cover;
+}
+
+#interviste {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(44, 43, 43)),
+    url('../img/contadino.jpg');
+    background-size: cover;
+}
+
+#interviste:hover {
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) translateY(-8px);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 43, 43, 0.726)),
+    url('../img/contadino.jpg');
+    background-size: cover;
+}
+
+.tile.is-child.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tile.is-ancestor h1 {
+    padding-bottom: 0;
+}
+
+/* CONTATTI */
+
+.contatti {
+    padding-bottom: 20px;
+}
+
+#logo-footer {
+    padding-bottom: 10px;
+}
+
+hr {
+    background-color: #49474759;
+    border: none; /* For more control we remove it */
+    content: "";
+    height: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    width: 16rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.icon-text p {
+    padding-left: 20px;
+}
+
+#mail:hover {
+    cursor: pointer;
+    color: #00D1B2;
+}
+
+.field {
+    padding-top: 20px;
+}
+
+.form-send {
+    display: flex;
+}
+
+.form-send button{
+    margin-left: 10px;
+}
+
+.mid {
+    border-right: solid 1px rgba(128, 128, 128, 0.473);
+    border-left: solid 1px rgba(128, 128, 128, 0.473);
+    padding-left: 30px;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+footer a {
+    color: #363636;
+}
